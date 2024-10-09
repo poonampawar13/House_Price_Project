@@ -42,3 +42,14 @@ The evaluation metrics are used on both the training and testing datasets to ass
 
 8. Prediction:
   * Apply the final model to predict house prices on the testing set and any new dataset.
+
+# Libraries Used
+  * Pandas: Data manipulation and analysis.
+  * NumPy: Numerical operations.
+  * Matplotlib: Plotting and data visualization.
+  * Seaborn: Statistical data visualization.
+  * Scikit-learn: Machine learning and model building.
+
+# Conclusion
+This project successfully demonstrates how to build a regression model to predict house prices. By following the steps of data preprocessing, feature selection, model training, and evaluation, we have developed a reliable predictive model. There is room for future improvements and testing with different models.
+
