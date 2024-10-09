@@ -18,7 +18,7 @@ The target variable is SalePrice, which represents the final price of each house
 
 2. Data Preprocessing:
    * Missing Value Handling: Impute missing values for continuous and categorical features using strategies like 'most frequent' and 'constant'.
-   * Feature Encoding: Convert categorical variables into numerical values using techniques like one-hot encoding.
+   * Feature Encoding: Convert categorical variables into numerical values using techniques like label encoding.
    * Scaling: Normalize or standardize numerical features if needed.
 
 3. Exploratory Data Analysis (EDA):
@@ -30,7 +30,7 @@ The target variable is SalePrice, which represents the final price of each house
 
 6. Modeling:
    * Perform a train-test split on the data.
-   * Train models such as Ridge and Lasso Regression using GridSearchCV for hyperparameter tuning.
+   * Train models such as Ridge Regression using GridSearchCV for hyperparameter tuning.
 
 7.Evaluation:
    * Evaluate the models using performance metrics such as:
@@ -41,7 +41,7 @@ The target variable is SalePrice, which represents the final price of each house
 The evaluation metrics are used on both the training and testing datasets to assess model performance.
 
 8. Prediction:
-  * Apply the final model to predict house prices on the testing set and any new dataset.
+  * Apply the final model to predict house prices on the testing set.
 
 # Libraries Used
   * Pandas: Data manipulation and analysis.
