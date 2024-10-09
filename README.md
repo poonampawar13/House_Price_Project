@@ -1,4 +1,4 @@
-# House_Price_Prediction_Project
+# House Price Prediction Project
 This project aims to predict house prices using various features such as the area, number of rooms, neighborhood, and other factors. The dataset comes from Kaggle and includes numerous features that describe the house and its surroundings.
 
 # Project Overview
